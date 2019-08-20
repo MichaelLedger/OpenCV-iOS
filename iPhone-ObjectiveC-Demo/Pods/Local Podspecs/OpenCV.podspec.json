@@ -1,0 +1,34 @@
+{
+  "name": "OpenCV",
+  "version": "4.1.0",
+  "summary": "OpenCV",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "description": "Open Source Computer Vision Library https://opencv.org",
+  "homepage": "https://github.com/opencv/opencv",
+  "license": "MIT",
+  "authors": {
+    "opencv": "https://opencv.org"
+  },
+  "source": {
+    "git": "https://github.com/opencv/opencv.git",
+    "tag": "4.1.0"
+  },
+  "vendored_frameworks": "**/*.{framework}",
+  "frameworks": [
+    "Accelerate",
+    "AssetsLibrary",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreImage",
+    "CoreMedia",
+    "CoreVideo",
+    "QuartzCore",
+    "UIKit",
+    "Foundation",
+    "Photos",
+    "Social"
+  ],
+  "requires_arc": false
+}
